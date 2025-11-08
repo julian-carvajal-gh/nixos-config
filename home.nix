@@ -58,9 +58,7 @@
     settings = {
       user.name = "Julian Carvajal";
       user.email = "julian@jcarvajal.com";
-      
-      	init.defaultBranch = "main";
-     
+      init.defaultBranch = "main";
     };
     signing = {
       format = "openpgp";
