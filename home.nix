@@ -25,6 +25,7 @@
 
     # Office
     libreoffice
+    pdfarranger
 
     # Communication
     zoom-us
