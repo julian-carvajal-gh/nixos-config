@@ -51,16 +51,16 @@
     aircrack-ng # WiFi security auditing
     nmap # Network discovery
     tor-browser
+
+    # Dev
+    vscode
   ];
 
   # Git
   programs.git = {
     enable = true;
-    settings = {
-      user.name = "Julian Carvajal";
-      user.email = "julian@jcarvajal.com";
-      init.defaultBranch = "main";
-    };
+    userName = "Julian Carvajal";
+    userEmail = "julian@jcarvajal.com";
     signing = {
       format = "openpgp";
       key = "75465CDBAC806387";
